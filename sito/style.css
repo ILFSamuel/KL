@@ -1,0 +1,96 @@
+html
+{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+body
+{
+    background-image: url(http://www.sfondilandia.it/1920/Wedding.jpg);
+    background-size: cover;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+.title{
+    width: 100%;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    font-size: 50px;
+    font-family: "Cedarville Cursive", cursive;
+    text-align: center;
+}
+.invito{
+    padding: 0px;
+    border: 3px  solid black;
+    margin: 0px;
+    top: 20%;
+    background-color: aliceblue;
+}
+.img{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 514px;
+    text-align: center;
+}
+.kevin{
+    opacity: 60%;
+    transition: 1000ms;
+}
+.lulla{
+    opacity: 60%;
+    transition: 1000ms;
+}
+.lulla:hover{
+    opacity: 100%;
+    transition: 1000ms;
+    height: 510px;
+    width: 510px;
+}
+.kevin:hover{
+    opacity: 100%;
+    transition: 1000ms;
+    height: 510px;
+    width: 510px;
+}
+.piani
+{
+    padding: 0px;
+    border: 3px  solid black;
+    margin: 0px;
+    width: 100%;
+    background-color: aliceblue;
+}
+.sam
+{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.sam1
+{
+    border: 5px solid black;
+}
+
+@media only screen and (max-width: 510px) {
+    .img
+    {
+        height: fit-content;
+    }
+    .lulla:hover{
+        opacity: 100%;
+        transition: 1000ms;
+        height: 510px;
+        width: 100%;
+    }
+    .kevin:hover{
+        opacity: 100%;
+        transition: 1000ms;
+        height: 510px;
+        width: 100%;
+    }
+  }
